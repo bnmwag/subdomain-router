@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const baseDomain = process.env.NODE_ENV === "development" ? "localhost:3000" : "vosgoos.bnmwag.dev";
+const baseDomain = process.env.NODE_ENV === "development" ? "localhost:3000" : "bnmwag.dev";
 
 export function middleware(req: NextRequest) {
   const url = req.nextUrl;
